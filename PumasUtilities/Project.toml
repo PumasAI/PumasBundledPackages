@@ -1,7 +1,7 @@
 name = "PumasUtilities"
 uuid = "148d11e5-1dc2-44df-acfd-e08afda85aab"
 authors = ["Michael Hatherly <michael@pumas.ai>"]
-version = "0.8.0"
+version = "0.9.0"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
@@ -17,13 +17,13 @@ PumasReports = "c743b482-f8db-431f-9b57-fa6852ce5b57"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
-DocStringExtensions = "0.8, 0.9"
+DocStringExtensions = "0.9"
 NCA = "2"
-NCAUtilities = "0.12"
-PlottingUtilities = "0.15"
+NCAUtilities = "0.15"
+PlottingUtilities = "0.18"
 ProvenanceTracking = ">= 0.4.1"
-Pumas = "2"
-PumasPlots = "0.10"
-PumasReports = "0.7"
+Pumas = "2.7"
+PumasPlots = "0.11"
+PumasReports = "0.8"
 Reexport = "1"
-julia = "1.7"
+julia = "1.10"
