@@ -1,7 +1,7 @@
 name = "PumasLicenseManager"
 uuid = "ebe2103e-d13d-42b7-8b52-0fb178cf1234"
 authors = ["Avik Sengupta", "PumasAI"]
-version = "0.3.1"
+version = "0.3.2"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
