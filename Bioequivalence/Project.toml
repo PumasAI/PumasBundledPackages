@@ -4,7 +4,7 @@ keywords = ["bioequivalence", "pharmacokinetics"]
 authors = ["PumasAI Team"]
 description = "Bioequivalence.jl a tool for bioequivalence (BE) data analysis"
 repository = "https://github.com/PumasAI/Bioequivalence.jl.git"
-version = "0.4.1"
+version = "0.4.6"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
@@ -27,23 +27,23 @@ SummaryTables = "6ce4ecf0-73a7-4ce3-9fb4-80ebfe887b60"
 
 [compat]
 CSV = "0.10"
-CategoricalArrays = "0.9, 0.10"
+CategoricalArrays = "1"
 DataFrames = "1.4"
 Distributions = "0.25"
 Documenter = "1"
-ForwardDiff = "0.10"
-FreqTables = "0.4"
+ForwardDiff = "0.10, 1"
+FreqTables = "0.4, 1"
 GLM = "1"
 HypothesisTests = "0.11.5"
-LinearAlgebra = "1.11.0"
-MixedModels = "4"
+LinearAlgebra = "1.10"
+MixedModels = "5"
 OrderedCollections = "1"
-PharmaDatasets = "0.12"
-Printf = "1.11.0"
+PharmaDatasets = "0.12, 0.13"
+Printf = "1.10"
 StatsBase = "0.33, 0.34"
 StatsFuns = "1.4.0"
 StatsModels = "0.6, 0.7"
-SummaryTables = "0.9, 1, 2, 3"
+SummaryTables = "3.3.3"
 julia = "1"
 
 [extras]
