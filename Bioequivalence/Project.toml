@@ -4,7 +4,7 @@ keywords = ["bioequivalence", "pharmacokinetics"]
 authors = ["PumasAI Team"]
 description = "Bioequivalence.jl a tool for bioequivalence (BE) data analysis"
 repository = "https://github.com/PumasAI/Bioequivalence.jl.git"
-version = "0.3.2"
+version = "0.3.4"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
