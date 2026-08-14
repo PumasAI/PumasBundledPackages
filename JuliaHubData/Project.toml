@@ -1,0 +1,47 @@
+name = "JuliaHubData"
+uuid = "e241c0f9-2941-4184-86f1-92558f4420e8"
+authors = ["Chris Foster <chris.foster@juliacomputing.com> and contributors"]
+version = "0.3.7"
+
+[deps]
+BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
+PumasLicenseManager = "ebe2103e-d13d-42b7-8b52-0fb178cf1234"
+AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+[compat]
+AWS = "=1.82.0"
+Base64 = "1"
+DataSets = "0.2"
+Dates = "1"
+Downloads = "1"
+HTTP = "1"
+JSON = "0.21"
+MbedTLS = "1"
+Pkg = "1"
+Random = "1"
+TOML = "1"
+URIs = "1"
+UUIDs = "1"
+julia = "1.6"
+
+[extras]
+AWSCore = "4f1ea46c-232b-54a6-9b17-cc2d0f3e6598"
+DataSets = "c9661210-8a83-48f0-b833-72e62abce419"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "JSON", "Dates", "DataSets", "Sockets"]
