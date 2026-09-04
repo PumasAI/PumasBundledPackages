@@ -1,7 +1,7 @@
 name = "PumasReports"
 uuid = "c743b482-f8db-431f-9b57-fa6852ce5b57"
 authors = ["Michael Hatherly <michael@pumas.ai>"]
-version = "0.7.1"
+version = "0.7.2"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
@@ -34,7 +34,7 @@ TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 [compat]
 CairoMakie = "0.12"
 CategoricalArrays = "0.10"
-Colors = "0.12"
+Colors = "0.12, 0.13"
 CommonMark = "0.8"
 DataFrames = "1"
 DataInterpolations = "3, 4, 5, 6"
@@ -43,8 +43,8 @@ FileIO = "1.7"
 KernelDensity = "0.6"
 Latexify = "0.15, 0.16"
 Loess = "0.6"
-Optim = "1.3"
 MCMCChains = "6.0.3"
+Optim = "1.3"
 PlottingUtilities = "0.15"
 Preferences = "1"
 Pumas = "2"
