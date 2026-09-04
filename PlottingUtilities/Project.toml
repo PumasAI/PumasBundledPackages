@@ -1,7 +1,7 @@
 name = "PlottingUtilities"
 uuid = "8b92943f-4587-47ba-ba47-ab67d84475e1"
 authors = ["Michael Hatherly <michael@pumas.ai>"]
-version = "0.15.6"
+version = "0.15.8"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
