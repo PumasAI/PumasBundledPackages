@@ -1,0 +1,54 @@
+name = "Bioequivalence"
+uuid = "4ece37e6-a012-11e8-38cd-91247efc2c34"
+keywords = ["bioequivalence", "pharmacokinetics"]
+authors = ["PumasAI Team"]
+description = "Bioequivalence.jl a tool for bioequivalence (BE) data analysis"
+repository = "https://github.com/PumasAI/Bioequivalence.jl.git"
+version = "0.3.2"
+
+[deps]
+BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
+PumasLicenseManager = "ebe2103e-d13d-42b7-8b52-0fb178cf1234"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+FreqTables = "da1fdf0e-e0ff-5433-a45f-9bb5ff651cb1"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MixedModels = "ff71e718-51f3-5ec2-a782-8ffcbfa3c316"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StatsModels = "3eaba693-59b7-5ba5-a881-562e759f1c8d"
+SummaryTables = "6ce4ecf0-73a7-4ce3-9fb4-80ebfe887b60"
+
+[compat]
+CSV = "0.10"
+CategoricalArrays = "0.9, 0.10"
+DataFrames = "1.4"
+Distributions = "0.25"
+Documenter = "0.27"
+ForwardDiff = "0.10"
+FreqTables = "0.4"
+GLM = "1"
+HypothesisTests = "0.9, 0.10, 0.11"
+MixedModels = "4"
+OrderedCollections = "1"
+PharmaDatasets = "0.8, 0.9, 0.10, 0.11"
+StatsBase = "0.33, 0.34"
+StatsModels = "0.6, 0.7"
+SummaryTables = "0.9, 1, 2, 3"
+julia = "1"
+
+[extras]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+PharmaDatasets = "1ceaab83-7ac3-4b16-bfc1-5dcd3355b9fc"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StringDistances = "88034a9c-02f8-509d-84a9-84ec65e18404"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Documenter", "CSV", "PharmaDatasets", "Random", "StringDistances"]
