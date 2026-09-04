@@ -1,6 +1,6 @@
 [plottingutilities_theme]
-git-tree-sha1 = "b29a308912d28ce69ad708258af184ad1a14c4da"
+git-tree-sha1 = "97f4850bbf6de016ce53923a4602fce414117234"
 
     [[plottingutilities_theme.download]]
-    sha256 = "56d318df8da775015feebe3e9bf3b472d3dd8354460272a4e6da8a32067ab924"
-    url = "https://pumas-product-bundles.s3.us-east-1.amazonaws.com/artifacts/PlottingUtilities-0.15.6.tar.gz"
+    sha256 = "d46490d2fb0c1d486d8fdcd3a858f6e71d0d7b3c825e567aab31afbe7bdfacb7"
+    url = "https://pumas-product-bundles.s3.us-east-1.amazonaws.com/artifacts/PlottingUtilities-0.18.2.tar.gz"
