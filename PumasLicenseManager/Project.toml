@@ -1,7 +1,7 @@
 name = "PumasLicenseManager"
 uuid = "ebe2103e-d13d-42b7-8b52-0fb178cf1234"
-authors = ["Avik Sengupta"]
-version = "0.3.0"
+authors = ["Avik Sengupta", "PumasAI"]
+version = "0.3.1"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
@@ -12,7 +12,7 @@ REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
 [compat]
-LicenseSpring = "= 0.2.5"
+LicenseSpring = "= 0.2.6"
 Preferences = "1"
 julia = "1.7"
 
