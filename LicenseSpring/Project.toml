@@ -1,0 +1,22 @@
+name = "LicenseSpring"
+uuid = "ebe2103e-d13d-42b7-8b52-0fb178cf3cda"
+authors = ["Avik Sengupta", "PumasAI"]
+version = "0.2.6"
+
+[deps]
+BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+LicenseSpring_jll = "ea2c2f5b-d23d-53da-ad7e-0e62c0a9a2e9"
+
+[compat]
+CEnum = "0.4, 0.5"
+Dates = "< 0.0.1, 1"
+LicenseSpring_jll = "= 7.32.0"
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

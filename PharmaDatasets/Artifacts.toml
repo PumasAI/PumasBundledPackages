@@ -1,0 +1,6 @@
+[pharmadatasets]
+git-tree-sha1 = "ea9477729414edfb4e5757b796a970150fd31071"
+
+    [[pharmadatasets.download]]
+    sha256 = "7ea1e696605e5e728247b536b0dca1bf357e89142a8fd04ed6a44d54b4533a4d"
+    url = "https://pharma-datasets.s3.us-east-1.amazonaws.com/pharmadatasets-ac12da0/pharmadatasets-ac12da0.tar.gz"
