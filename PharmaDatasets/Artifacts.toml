@@ -1,6 +1,6 @@
 [pharmadatasets]
-git-tree-sha1 = "43338c13f50661892fb95a36e9869639c7964e08"
+git-tree-sha1 = "7314fd4af37b3ff3ea2f9adc0cded5b0aa20672d"
 
     [[pharmadatasets.download]]
-    sha256 = "79f5a2719702789d6204f6222166f111429ebd48a647129f47edc9ff39446558"
-    url = "https://pumas-product-bundles.s3.us-east-1.amazonaws.com/artifacts/PharmaDatasets-0.11.1.tar.gz"
+    sha256 = "087c3ebf2f601186117528c93b99a736614af953637322c139791c3725c188aa"
+    url = "https://pumas-product-bundles.s3.us-east-1.amazonaws.com/artifacts/PharmaDatasets-0.12.4.tar.gz"
