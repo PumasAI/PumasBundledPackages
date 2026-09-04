@@ -1,7 +1,7 @@
 name = "JuliaHubData"
 uuid = "e241c0f9-2941-4184-86f1-92558f4420e8"
 authors = ["Chris Foster <chris.foster@juliacomputing.com> and contributors"]
-version = "0.3.7"
+version = "0.3.9"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
