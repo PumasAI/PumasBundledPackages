@@ -1,6 +1,6 @@
 name = "NCA"
 uuid = "29142fd5-e082-4e84-b14f-4d7220ed3f6b"
-version = "2.6.13"
+version = "2.6.14"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
