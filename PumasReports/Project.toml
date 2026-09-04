@@ -1,7 +1,7 @@
 name = "PumasReports"
 uuid = "c743b482-f8db-431f-9b57-fa6852ce5b57"
 authors = ["Michael Hatherly <michael@pumas.ai>"]
-version = "0.8.5"
+version = "0.8.6"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
