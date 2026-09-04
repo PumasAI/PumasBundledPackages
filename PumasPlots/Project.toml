@@ -1,7 +1,7 @@
 name = "PumasPlots"
 uuid = "0c61e9cd-e02e-46f2-b961-0746d5a16e3b"
 authors = ["PumasAI"]
-version = "0.10.6"
+version = "0.10.7"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
