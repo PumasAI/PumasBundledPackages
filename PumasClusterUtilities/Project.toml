@@ -1,6 +1,6 @@
 name = "PumasClusterUtilities"
 uuid = "49473f6d-bbbf-4d00-9d1b-82590ab4af72"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Dilum Aluthge <dilum@pumas.ai>", "Pumas-AI, Inc."]
 
 [deps]
@@ -14,7 +14,7 @@ Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 [compat]
 ClusterManagers = "0.4"
 Distributed = "< 0.0.1, 1"
-JET = "0.9, 0.10"
+JET = "0.9, 0.10, 0.11, 0.12"
 Mustache = "1"
 SlurmClusterManager = "0.1.4, 1"
 Sockets = "< 0.0.1, 1"
