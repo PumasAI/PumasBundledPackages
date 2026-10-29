@@ -1,7 +1,7 @@
 name = "ProjectTools"
 uuid = "2f4423a0-93c9-3aaa-2623-41efdc8aa38c"
 authors = ["MichaelHatherly <michael@pumas.ai>"]
-version = "0.1.4"
+version = "0.1.5"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
