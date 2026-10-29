@@ -1,7 +1,7 @@
 name = "PumasReports"
 uuid = "c743b482-f8db-431f-9b57-fa6852ce5b57"
+version = "0.9.12"
 authors = ["Michael Hatherly <michael@pumas.ai>"]
-version = "0.9.5"
 
 [deps]
 BundleLoader_jll = "1ad3e620-8996-5565-b8b0-a1489189912b"
@@ -27,26 +27,27 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
 [compat]
-AlgebraOfGraphics = "0.11, 0.12"
+AlgebraOfGraphics = "0.12.4, 0.13"
 CSV = "0.10"
 CairoMakie = "0.15"
-CategoricalArrays = "0.10, 1"
+CategoricalArrays = "1"
 Colors = "0.12, 0.13"
-CommonMark = "0.8, 0.9"
+CommonMark = "0.8, 0.9, 0.10, 1"
 DataFrames = "1"
 DocStringExtensions = "0.8, 0.9"
 LaTeXStrings = "1"
-Latexify = "0.15, 0.16"
+Latexify = "0.16.10"
 Logging = "1"
 PDMats = "0.11"
 PharmaDatasets = "0.12, 0.13"
 PlottingUtilities = "0.19.1"
 Preferences = "1"
-Pumas = "~2.8"
-PumasPlots = "0.12"
+Pumas = "~2.9"
+PumasPlots = "0.12.9, 0.13"
 StableRNGs = "1"
 StatsBase = "0.34"
 TOML = "1"
+Unitful = "1"
 julia = "1.10"
 
 [extras]
@@ -57,6 +58,7 @@ PharmaDatasets = "1ceaab83-7ac3-4b16-bfc1-5dcd3355b9fc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [targets]
-test = ["CSV", "Logging", "PDMats", "PharmaDatasets", "Random", "StableRNGs", "Test"]
+test = ["CSV", "Logging", "PDMats", "PharmaDatasets", "Random", "StableRNGs", "Test", "Unitful"]
